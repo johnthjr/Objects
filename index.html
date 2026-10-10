@@ -7,5 +7,42 @@
 </head>
 <body>
     <h1>Objects in Javascript</h1>
+
+    <script>
+        let dog = {
+            name: "Spot",
+            breed: "Dalmation",
+            age: 8,
+            greet: function(){
+                console.log("Bark")
+            }
+        }
+
+         console.log(dog.name);
+        // console.log(dog.breed);
+        // console.log(dog.age);
+
+        console.log(dog["name"])
+
+        // dog.greet()
+
+        // let cat = {};
+        // console.log(cat)
+        // cat.name = "Mr. Whiskers";
+        // console.log(cat)
+        // cat['breed'] = "Callico";
+        // console.log(cat)
+        // cat.age = 7;
+        // console.log(cat)
+
+        let car = new Object();
+        console.log(car)
+        car.make = "Ford";
+        console.log(car)
+        car['drive'] = "4WD";
+        console.log(car)
+
+
+    </script>
 </body>
 </html>
